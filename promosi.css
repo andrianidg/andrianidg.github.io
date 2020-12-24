@@ -24,3 +24,12 @@ nav {
 #home {
     padding-top: 2rem;
 }
+
+.contact-icon {
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+.contact-icon:hover {
+    color: #ffd369;
+}
