@@ -1,1 +1,26 @@
 /*CSS file promosi.css*/
+
+img {
+    max-width: 100%;
+}
+
+.nav-item:hover {
+    background-color: #ffd369;
+}
+
+.nav-item a {
+    color: #eeeeee
+}
+
+.nav-item a:hover {
+    color:black
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+#home {
+    padding-top: 2rem;
+}
