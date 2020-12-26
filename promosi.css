@@ -33,3 +33,83 @@ nav {
 .contact-icon:hover {
     color: #ffd369;
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .buket-item {
+        display: block;
+    }
+    
+    .buket-deskripsi {
+        padding: 1rem;
+        flex: 3;
+    }
+    
+    .buket-foto {
+        flex: 1;
+    }
+    
+    .contact-container {
+        display: flex;
+    }
+    
+    .contact-item {
+        flex: 1;
+        text-align: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.buket-item {
+        display: flex;
+    }
+    
+    .buket-deskripsi {
+        padding: 2rem;
+        flex: 3;
+    }
+    
+    .buket-foto {
+        flex: 1;
+    }
+    
+    .contact-container {
+        display: flex;
+    }
+    
+    .contact-item {
+        flex: 1;
+        text-align: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .buket-item {
+        display: flex;
+    }
+    
+    .buket-deskripsi {
+        padding: 1rem;
+        flex: 3;
+    }
+    
+    .buket-foto {
+        flex: 1;
+    }
+    
+    .contact-container {
+        display: flex;
+    }
+    
+    .contact-item {
+        flex: 1;
+        text-align: center;
+    }
+}
+
+
+
+
